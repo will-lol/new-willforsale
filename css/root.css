@@ -3,6 +3,8 @@
     font-weight: normal;
     --text-color: hsl(0, 0%, 0%);
     --bg-color: hsl(0, 0%, 100%);
+    --primary: hsl(71, 54%, 17%);
+    --secondary: hsl(23, 86%, 19%);
     background-color: var(--bg-color);
 
 }
