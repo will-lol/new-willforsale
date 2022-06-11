@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    margin: 1rem;
+    padding: 1rem;
 }
 
 .nav__brand {
@@ -22,5 +22,10 @@
     .nav a {
         font-size: 1.25rem;
         text-decoration-thickness: 0.1rem;
+    }
+    .nav {
+        border-bottom: 1px solid;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12),
+                    0 4px 4px rgba(0, 0, 0, 0.12);
     }
 }
