@@ -1,0 +1,45 @@
+
+.scrollingText {
+    position: fixed;
+    bottom: 0;
+    white-space: nowrap;
+    animation-name: scrolling;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.homeHeader__feature {
+    background-image: linear-gradient(0deg,
+            hsla(23deg, 86%, 19%, 0.4) 0%,
+            hsla(29deg, 92%, 18%, 0.4) 13%,
+            hsla(34deg, 96%, 17%, 0.4) 25%,
+            hsla(39deg, 96%, 16%, 0.4) 37%,
+            hsla(44deg, 93%, 15%, 0.4) 50%,
+            hsla(49deg, 85%, 15%, 0.4) 63%,
+            hsla(55deg, 75%, 15%, 0.4) 75%,
+            hsla(63deg, 63%, 16%, 0.4) 87%,
+            hsla(71deg, 54%, 17%, 0.4) 100%);
+}
+
+.homeHeader__text {
+    margin-bottom: 5rem;
+}
+
+.homeHeader__text h1 {
+    font-size: 5rem;
+}
+
+.homeHeader__text h1 span {
+    font-family: "Libre Baskerville";
+}
