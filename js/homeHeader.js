@@ -6,7 +6,7 @@ line.style.strokeDashoffset = length;
 window.addEventListener("scroll", drawLine);
 var amount = (-(window.innerHeight/2)+(window.innerHeight/3.7) + "px")
 
-const guys = document.querySelectorAll(".scroll");
+const guys = document.querySelectorAll(".homeHeader__feature__guy");
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         entry.target.classList.toggle("reveal", entry.isIntersecting)
