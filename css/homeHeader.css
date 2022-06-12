@@ -1,7 +1,16 @@
-
 .scrollingText {
     position: fixed;
     bottom: 0;
+    padding: 1.3rem;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--bg-color);
+}
+
+.scrollingText span {
+    position: inherit;
+    bottom: 1%;
+    font-size: 1.2rem;
     white-space: nowrap;
     animation-name: scrolling;
     animation-iteration-count: infinite;
@@ -52,11 +61,17 @@
     font-family: "Libre Baskerville";
 }
 
-.homeHeader__feature div {
+.scroll {
     position: absolute;
     display: flex;
     justify-content: flex-start;
     width: 15rem;
+    opacity: 0;
+    transition: opacity, 0.5s;
+}
+
+.reveal {
+    opacity: 1;
 }
 
 .homeHeader__feature__guy--1 {
