@@ -1,12 +1,12 @@
 :root {
     font-family: 'Libre Franklin';
     font-weight: normal;
-    --text-color: hsl(0, 0%, 0%);
-    --bg-color: hsl(24, 2%, 90%);
-    --primary: hsl(71, 54%, 17%);
-    --secondary: hsl(23, 86%, 19%);
-    background-color: var(--bg-color);
-    color: var(--text-color)
+    --text-color:0, 0%, 0%;
+    --bg-color: 24, 2%, 90%;
+    --primary: 71, 54%, 17%;
+    --secondary: 23, 86%, 19%;
+    background-color: hsl(var(--bg-color));
+    color: hsl(var(--text-color))
 
 }
 
@@ -35,9 +35,9 @@ section {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --text-color: hsl(0, 0%, 95%);
-        --bg-color: hsl(0, 0%, 10%);
-        --primary: hsl(71, 54%, 50%);
-        --secondary: hsl(23, 86%, 70%);    
+        --text-color: 0, 0%, 95%;
+        --bg-color: 0, 0%, 10%;
+        --primary: 71, 54%, 50%;
+        --secondary: 23, 86%, 70%;    
     }
 }
