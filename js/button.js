@@ -1,8 +1,7 @@
 var elements = document.getElementsByClassName("button");
 
 var vibrate = function() {
-    window.navigator.vibrate(200);
-    console.log("vibration sent")
+    window.navigator.vibrate(50);
 };
 
 for (var i = 0; i < elements.length; i++) {
