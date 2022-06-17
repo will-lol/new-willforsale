@@ -6,7 +6,7 @@ var vibrateDown = function() {
 };
 
 var vibrateUp = function() {
-    window.navigator.vibrate([15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10]);
+    window.navigator.vibrate([500, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10]);
 };
 
 for (var i = 0; i < elements.length; i++) {
