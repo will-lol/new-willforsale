@@ -27,5 +27,4 @@ function drawLine() {
     }
     var draw = length * scrollRatio;
     line.style.strokeDashoffset = length - draw;
-    console.log(scrollRatio);
 }
