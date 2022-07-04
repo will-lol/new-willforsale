@@ -21,7 +21,14 @@ guys.forEach(guy => {
 })
 
 function drawLine() {
+    requestAnimationFrame(drawLineFrame)
+}
+
+function drawLineFrame() {
     var scrollRatio = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    if (scrollRatio > 1) {
+        scrollRatio = 1;
+    }
     var draw = length * scrollRatio;
     line.style.strokeDashoffset = length - draw;
 }
