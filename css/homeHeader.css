@@ -5,6 +5,11 @@
     width: 100%;
     z-index: 10;
     background-color: hsl(var(--bg-color));
+    transition: transform 1s;
+}
+
+.hideY {
+    transform: translateY(100%);
 }
 
 .scrollingText span {
